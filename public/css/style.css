@@ -1,0 +1,310 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight:initial;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.image {
+	background-image:url(../images/baner33.gif);
+	height:1000px;
+    width: 100%;
+    position:relative;
+    background-attachment: fixed;
+   
+  
+}
+
+.header {
+	padding-top: 300px;
+	
+	color: hsla(0, 8%, 95%, 0.993);
+	font-size: 60px;
+	text-align: center;
+ background-attachment: fixed;
+ 
+}
+.header1 {
+	padding-top: 200px;
+	
+	color: hsla(0, 0%, 100%, 0.993);
+	font-size: 60px;
+	text-align: center;
+ background-attachment: fixed;
+ 
+}
+/* about section */
+.header3 {
+	padding-top: 80px;
+	
+	color: hsla(0, 0%, 0%, 0.993);
+	font-size: 60px;
+	text-align: center;
+ background-attachment: fixed;
+ 
+}
+.header4 {
+	padding-top: 80px;
+	padding-bottom: 120px;
+	color: hsla(0, 0%, 0%, 0.849);
+	font-size: 30px;
+	text-align: center;
+ background-attachment: fixed;
+ 
+}
+
+/*serviice text*/
+
+.service{
+	padding-top: 55px;
+	padding-bottom: 20px;
+	color: hsla(0, 0%, 0%, 0.849);
+	font-size: 65px;
+	text-align: center;
+ background-attachment: fixed;
+ 
+}
+/* product text*/
+.product{
+	padding-top: 55px;
+	padding-bottom: 20px;
+	color: hsla(0, 0%, 0%, 0.849);
+	font-size: 65px;
+	text-align: center;
+ background-attachment: fixed;
+ 
+}
+
+/* navbar css */
+
+
+
+
+*{
+
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+ 
+  font-family: montserrat;
+}
+nav{
+  
+  background: #00000083;
+  height: 90px;
+  width: 100%;
+}
+
+nav ul{
+
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+ 
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  
+  background: #000000;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: rgb(243, 243, 243);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: none;
+  
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000dc;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #000000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+.logo img{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 28px; 
+}
+
+/* this is about us */
+.about-section {
+	padding: 50px;
+	text-align: center;
+
+	background-color: #000000f6;
+	color: white;
+	height: 60%;
+	
+  }
+  .container {
+	padding: 0 30px;
+  }
+
+
+
+  /*this is image grid */
+  * {
+  box-sizing: border-box;
+  border-radius: 9px;
+  
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* this products css grid */
+.column2 {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+  
+
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:350px) {
+  .column2 {
+    width: 100%;
+  }
+}
+ 
+
+/* contactus form */
+.contactus{
+  text-align: center;
+  background-size: center;
+  height:80%;
+  background-color: #fbfbfb;
+  margin-top:20px;
+
+
+}
+.form-control{
+  margin-bottom:8px;
+  margin-top:8px;
+ border-radius: 20px;
+  width:80%;
+  height:8%;
+  background-color:#ffffff ;
+  }
+  .form-control2{
+    box-sizing: 10%;
+    padding-top: 2%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    width:80%;
+    height:20%;
+    border-radius: 20px;
+    background-color:#ffffff ;
+
+    
+    }
+
+
+.contactus3{
+  width:500px;
+height:100px;
+padding-bottom: 30px;
+margin-bottom: 30px;
+}
+.contactus4{
+  width:25%;
+  height:8%;
+  left:-2px;
+  top:38px;
+  background-color:#19ff042c;
+  border-color:#ffffff;
+  font-style:normal;
+  font-size:22px;
+  border-radius: 30px;
+  
+}
+.contactus5{
+  height:5%;
+  font-size:180%;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
